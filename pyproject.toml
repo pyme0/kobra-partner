@@ -1,6 +1,6 @@
 [project]
 name = "kobra-partner"
-version = "0.1.1"
+version = "0.1.2"
 description = "Cliente Python de la API Partner de Kobra."
 readme = "README.md"
 requires-python = ">=3.11"
@@ -23,7 +23,8 @@ dependencies = [
 [project.urls]
 Homepage = "https://github.com/pyme0/kobra-partner"
 Repository = "https://github.com/pyme0/kobra-partner"
-Documentation = "https://github.com/pyme0/kobra-partner#readme"
+Documentation = "https://control-center-production-03de.up.railway.app/partner/docs"
+PyPI = "https://pypi.org/project/kobra-partner/"
 Issues = "https://github.com/pyme0/kobra-partner/issues"
 
 [project.optional-dependencies]

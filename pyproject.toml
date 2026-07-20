@@ -1,0 +1,42 @@
+[project]
+name = "kobra-partner"
+version = "0.1.0"
+description = "Cliente Python de la API Partner de Kobra."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{ name = "Kobra" }]
+keywords = ["kobra", "cobranza", "partner", "api", "sdk"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Typing :: Typed",
+]
+dependencies = [
+  "httpx>=0.27",
+]
+
+[project.urls]
+Homepage = "https://github.com/pyme0/kobra-partner"
+Repository = "https://github.com/pyme0/kobra-partner"
+Documentation = "https://github.com/pyme0/kobra-partner#readme"
+Issues = "https://github.com/pyme0/kobra-partner/issues"
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["kobra_partner*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

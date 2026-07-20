@@ -3,8 +3,8 @@
 Cliente Python de la API Partner de Kobra.
 
 ```bash
-pip install "git+https://github.com/pyme0/kobra-partner.git"
-pip install -U "git+https://github.com/pyme0/kobra-partner.git"
+pip install kobra-partner
+pip install -U kobra-partner
 ```
 
 ```python
@@ -15,5 +15,7 @@ client.me()
 ```
 
 Documentación de la API: `{base_url}/partner/docs`
+
+https://pypi.org/project/kobra-partner/
 
 MIT

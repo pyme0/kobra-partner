@@ -90,7 +90,7 @@ class TestClientUnit(unittest.TestCase):
         self.client.close()
 
     def test_version(self):
-        self.assertEqual(__version__, "0.1.0")
+        self.assertEqual(__version__, "0.1.1")
 
     def test_auth_header_and_me(self):
         me = self.client.me()
